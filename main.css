@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#title{color:blue;}
+
+h1{
+	font: bold 20px Tahoma;
+}
+h2{
+	font: bold 15px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+display: block;
+}
+body{
+	text-align: center;
+}
+li:nth-child(odd){color:gray;}
+li:nth-child(even){color:blue;}
+
+#main_menu{
+	border: 1px solid black;
+	width:1000px;
+	margin: 20px auto;
+	text-align: left; 
+}
+#title{
+	background: silver;
+	border: 2px dotted blue;
+	padding: 20px;
+	text-align: center;
+}
+#top_menu{
+	background: pink;
+	color:white; 
+	text-align: center;
+}
+#top_menu li{
+	display:inline-block;
+	list-style:none;
+	padding: 10px; 
+	font: bold 14px tahoma;
+}
