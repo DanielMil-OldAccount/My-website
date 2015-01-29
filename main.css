@@ -1,9 +1,9 @@
 *{
-	margin: 0px;
+	margin: auto;
 	padding: 0px;
 }
 
-#title{color:blue;}
+#title{color:#696969;}
 
 h1{
 	font: bold 20px Tahoma;
@@ -40,6 +40,24 @@ li:nth-child(even){color:blue;}
 #top_menu li{
 	display:inline-block;
 	list-style:none;
-	padding: 10px; 
+	padding: 5px; 
 	font: bold 14px tahoma;
+}
+#main_section{
+	float: left;
+	width: 660px;
+	margin:30px; /*720 pixels, 280 left*/
+} 
+#side_news{
+	float:left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
+}
+#the_footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid black; 
 }
